@@ -4,13 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FRIENDS Challenge!</title>
-    <link rel="stylesheet" href="/.assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    <h1>How well do you know your F•R•I•E•N•D•S?</h1>
-    <h2>Try to answer the following questions within the time limit. Incorrect answers will penalize your score/time remaining by 10 seconds.</h2>
-    <button type="submit" class="start" id="start">Let's Go!</button>
+    <header>
+        <h1>How well do you know your</h1>
+        <h1><img src="assets\images\friends-logo.jpeg" alt="friends logo"></h1>
+    </header>
 
-    <script src="/.assets/js/script.js"></script>
+        <h2>Try to answer the following questions within the time limit. </br>
+            Incorrect answers will penalize your score/time remaining by 10 seconds.</h2>
+
+    <div class="container">
+        <div id="question-container"></div>
+            <div id="question">Question</div>
+            <div id="answer-btns" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 1</button>
+            </div>
+    </div>
+
+    <div class="buttons">
+        <button type="submit" class="start" id="start">Let's Go!</button>
+    </div>
+    
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
