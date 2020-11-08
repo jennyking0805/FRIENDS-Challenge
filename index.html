@@ -8,27 +8,36 @@
 </head>
 <body>
     <header>
-        <h1>How well do you know your</h1>
+        <h1>How well do you know your...</h1>
         <h1><img src="assets\images\friends-logo.jpeg" alt="friends logo"></h1>
     </header>
 
         <h2>Try to answer the following questions within the time limit. </br>
             Incorrect answers will penalize your score/time remaining by 10 seconds.</h2>
-
-    <div class="container">
-        <div id="question-container"></div>
-            <div id="question">Question</div>
-            <div id="answer-btns" class="btn-grid">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 1</button>
-            </div>
+        
+    <div class="controls">
+        <button id="startBtn" class="startBtn btn">Let's Go!</button>
     </div>
 
-    <div class="buttons">
-        <button type="submit" class="start" id="start">Let's Go!</button>
-    </div>
+</br>
+
+   <div class="grid">
+       <div id="quiz">
+
+        <p id="questions"></p>
+
+        <div class="buttons">
+            <button id="btn0"><span id="ans0"></span></button>
+            <button id="btn1"><span id="ans1"></span></button>
+            <button id="btn2"><span id="ans2"></span></button>
+            <button id="btn3"><span id="ans3"></span></button>
+        </div>
+
+       </div>
+   </div>
+
+
+
     
 
     <script src="assets/js/script.js"></script>

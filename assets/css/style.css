@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive;
   }
 
 body {
@@ -8,7 +8,7 @@ body {
     margin: 0;
     justify-content: center;
     align-items: center;
-    background-color: #696969
+    background-color: #c0c0c0;
 }
 
 header {
@@ -21,20 +21,24 @@ h2 {
 
 button {
     padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px;
     display: flex;
     text-align: center;
     font-weight: bold;
-    background-color: #2f4f4f;
+    background-color: #696969;
     color: black;
+    margin: 0 auto;
 }
 
-.container {
+.grid {
     width: 800px;
     max-width: 75%;
-    background-color: #c0c0c0;
+    background-color: #2d3535;
     border-radius: 5px;
     padding: 5px;
     box-shadow: 0 0 5px 1px;
+    margin: 0 auto;
 }
 
 .btn-grid {
@@ -42,4 +46,20 @@ button {
     padding: 5px;
     margin: 0;
     gap: 10px;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: #696969;
+}
+
+.btn:hover {
+    border-color: black;
+}
+
+.startBtn {
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 10px;
 }
