@@ -13,33 +13,41 @@
     </header>
 
         <h2>Try to answer the following questions within the time limit. </br>
-            Incorrect answers will penalize your score/time remaining by 10 seconds.</h2>
+            Incorrect answers will penalize your score/time remaining by 10 seconds. </br>
+            Click "Let's Go!" to start!
+        </h2>
         
     <div class="controls">
-        <button id="startBtn" class="startBtn btn">Let's Go!</button>
+        <button class="startBtn" id ="startBtn btn">Let's Go!</button>
     </div>
 
-</br>
+    </br>
 
-   <div class="grid">
+   <div class="container" id="container">
        <div id="quiz">
+           <h1>Could this quiz BE any harder?!</h1>
+       </br>
 
-        <p id="questions"></p>
+            <p id="question"></p>
 
-        <div class="buttons">
-            <button id="btn0"><span id="ans0"></span></button>
-            <button id="btn1"><span id="ans1"></span></button>
-            <button id="btn2"><span id="ans2"></span></button>
-            <button id="btn3"><span id="ans3"></span></button>
-        </div>
+            <div class="buttons">
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+                <button id="btn4"><span id="choice4"></span></button>
+            </div>
+
+            <footer>
+                <p id="timer">Time</p>
+            </footer>
 
        </div>
+
    </div>
 
+   <script src="assets/js/script.js"></script>
 
+    </br></br>
 
-    
-
-    <script src="assets/js/script.js"></script>
 </body>
 </html>
